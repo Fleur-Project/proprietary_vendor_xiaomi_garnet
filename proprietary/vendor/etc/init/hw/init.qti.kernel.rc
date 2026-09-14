@@ -88,17 +88,17 @@ on boot
     chown root system /sys/kernel/dload/dload_mode
     chmod 0660 /sys/kernel/dload/dload_mode
 
-    # set the io-scheduler to bfq on all mq support devices
-    write /sys/block/sda/queue/scheduler bfq
-    write /sys/block/sdb/queue/scheduler bfq
-    write /sys/block/sdc/queue/scheduler bfq
-    write /sys/block/sdd/queue/scheduler bfq
-    write /sys/block/sde/queue/scheduler bfq
-    write /sys/block/sdf/queue/scheduler bfq
-    write /sys/block/sdg/queue/scheduler bfq
-    write /sys/block/sdh/queue/scheduler bfq
-    write /sys/class/block/mmcblk0/queue/scheduler bfq
-    write /sys/class/block/mmcblk1/queue/scheduler bfq
+    # set the io-scheduler to adios
+    write /sys/block/sda/queue/scheduler adios
+    write /sys/block/sdb/queue/scheduler adios
+    write /sys/block/sdc/queue/scheduler adios
+    write /sys/block/sdd/queue/scheduler adios
+    write /sys/block/sde/queue/scheduler adios
+    write /sys/block/sdf/queue/scheduler adios
+    write /sys/block/sdg/queue/scheduler adios
+    write /sys/block/sdh/queue/scheduler adios
+    write /sys/class/block/mmcblk0/queue/scheduler adios
+    write /sys/class/block/mmcblk1/queue/scheduler adios
 
     # update io-scheduler tunables
     write /sys/block/sda/queue/iosched/slice_idle 0
@@ -118,7 +118,7 @@ on boot
 on boot && property:persist.sys.stability.smartfocusio=on
     write /sys/block/sda/queue/scheduler cpq
 on property:persist.sys.stability.smartfocusio=off
-    write /sys/block/sda/queue/scheduler bfq
+    write /sys/block/sda/queue/scheduler adios
     write /sys/block/sda/queue/iosched/slice_idle 0
 
 on post-fs-data
