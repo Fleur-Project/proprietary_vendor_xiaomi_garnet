@@ -721,6 +721,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/garnet/proprietary/vendor/etc/vibrator/effect_1.bin:$(TARGET_COPY_OUT_VENDOR)/etc/vibrator/effect_1.bin \
     vendor/xiaomi/garnet/proprietary/vendor/etc/vibrator/primitive_effect_1.bin:$(TARGET_COPY_OUT_VENDOR)/etc/vibrator/primitive_effect_1.bin \
     vendor/xiaomi/garnet/proprietary/vendor/etc/vibrator/effect_2.bin:$(TARGET_COPY_OUT_VENDOR)/etc/vibrator/effect_2.bin \
+    vendor/xiaomi/garnet/proprietary/vendor/etc/vibrator/effect_21.bin:$(TARGET_COPY_OUT_VENDOR)/etc/vibrator/effect_21.bin \
     vendor/xiaomi/garnet/proprietary/vendor/etc/vibrator/primitive_effect_2.bin:$(TARGET_COPY_OUT_VENDOR)/etc/vibrator/primitive_effect_2.bin \
     vendor/xiaomi/garnet/proprietary/vendor/etc/vibrator/effect_3.bin:$(TARGET_COPY_OUT_VENDOR)/etc/vibrator/effect_3.bin \
     vendor/xiaomi/garnet/proprietary/vendor/etc/vibrator/primitive_effect_3.bin:$(TARGET_COPY_OUT_VENDOR)/etc/vibrator/primitive_effect_3.bin \
