@@ -37,6 +37,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/garnet/proprietary/odm/etc/camera/videofilter/164_FC400.png:$(TARGET_COPY_OUT_ODM)/etc/camera/videofilter/164_FC400.png \
     vendor/xiaomi/garnet/proprietary/odm/etc/camera/videofilter/165_C50D.png:$(TARGET_COPY_OUT_ODM)/etc/camera/videofilter/165_C50D.png \
     vendor/xiaomi/garnet/proprietary/odm/etc/camera/videofilter/166_F50.png:$(TARGET_COPY_OUT_ODM)/etc/camera/videofilter/166_F50.png \
+    vendor/xiaomi/garnet/proprietary/odm/etc/camera/videofilter/72.png:$(TARGET_COPY_OUT_ODM)/etc/camera/videofilter/72.png \
+    vendor/xiaomi/garnet/proprietary/odm/etc/camera/videofilter/73.png:$(TARGET_COPY_OUT_ODM)/etc/camera/videofilter/73.png \
     vendor/xiaomi/garnet/proprietary/odm/etc/me_config.xml:$(TARGET_COPY_OUT_ODM)/etc/me_config.xml \
     vendor/xiaomi/garnet/proprietary/product/etc/permissions/UimGba.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/UimGba.xml \
     vendor/xiaomi/garnet/proprietary/product/etc/permissions/UimGbaManager.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/UimGbaManager.xml \
