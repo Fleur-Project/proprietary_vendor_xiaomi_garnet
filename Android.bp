@@ -25148,6 +25148,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/soundfx/libdlbvol.so",
             ],
             shared_libs: [
+                "libspatializerparamstorage",
                 "libstagefright_foundation-v33",
                 "liblog",
                 "libutils",
