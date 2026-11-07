@@ -23919,6 +23919,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/libswspatializer_ext.so",
             ],
             shared_libs: [
+                "libstagefright_foundation-v33",
                 "liblog",
                 "libutils",
                 "libcutils",
@@ -25697,6 +25698,7 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/soundfx/libswspatializer.so",
             ],
             shared_libs: [
+                "libstagefright_foundation-v33",
                 "liblog",
                 "libutils",
                 "libcutils",
