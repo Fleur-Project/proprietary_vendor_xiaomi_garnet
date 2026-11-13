@@ -1662,6 +1662,7 @@ PRODUCT_PACKAGES += \
     libswgamedap \
     libswspatializer \
     libswvqe \
+    libv4a_re \
     vendor.display.color@1.0 \
     vendor.display.color@1.1 \
     vendor.display.color@1.2 \
